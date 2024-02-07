@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300&family=Source+Sans+3:wght@400;600&display=swap');
+body{background-color: #4285F4;}
+@import 'animate.css';
+
+.find-box {
+    background-color: white;
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+    font-family: 'Poppins';
+    margin: -60px auto;
+    padding: 20px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sentence{
+    border-left: 3px #4285F4 solid ;
+    padding: 10px;
+}
+
+.adjective{
+    color: grey;
+}
+
+.infodiv{
+    text-align: left;
+}
+
+.mainDiv{
+    position: relative;
+}
+
+input{
+    appearance: none;
+    outline: none;
+    /* margin-right: 200px; */
+    width: 100%;
+    border: none;
+    font-size: 17px;
+    margin-top: 10px;
+    border-bottom: 1px solid silver;
+    text-align: left;
+    font-family: 'Poppins';
+    transition: all 0.5s ease;
+    
+}
+.input-data input:focus~label,
+.input-data input:valid ~ label{
+    transform: translateY(-20px);
+    font-size: 11px;
+    color: #4285F4; 
+}
+input:focus, input:valid{
+    border-bottom: 1px solid #4285F4;
+    transition: all 0.5s ease;
+}
+.headingScramble{
+    text-align: center;
+    font-family: 'Poppins';
+    text-shadow: 1px 1px black ;
+    font-size: 45px;
+    margin-top: -5px;
+    font-weight: 700;
+    color: white;
+}
+
+.headingError{
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.heading2{
+    font-weight: 700;
+    margin-top: 30px;
+    display: inline;
+}
+
+
+
+.input-data label{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    color: grey;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.input-data{
+    position: relative;
+    
+}
+
+
+
+
+
+img{
+    width: 550px;
+    /* position: absolute;
+    top: -50px;
+    left: 710px; */
+    /* max-width: 200px; */
+    /* height: auto;
+    margin: auto; */
+    
+}
+
+button{
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: #4285F4;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    transition: all 0.3s ease-in;
+}
+
+button:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease-out;
+    cursor: hover;
+}
+
+.footer{
+    background-color: white;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    left:0;
+    bottom:0;
+    color: #000000;
+    text-align: center;
+    font-family: 'Poppins';
+}
+
